@@ -1,0 +1,285 @@
+﻿@page "/"
+@inject IJSRuntime JSRuntime
+
+<title>Home</title>
+<link rel="" type="text/JavaScript" href="/wwwroot/script.js">
+<link rel="stylesheet" type="text/css" href="Navbar.css" />
+
+<script src="script.js"></script>
+
+<!--EXTERNAL LINKS-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<app>
+    <component type="typeof(App)" render-mode="Static" />
+</app>
+<body>
+    
+     <header> <!--HEADER NAV BEGIN-->
+        <a href="#" class="logo"><img src="img/_LOGO.png" width="150"/></a> <!--LOGO TAG-->
+        <ul class="navbar">
+            <!--NAVIGATION TABS-->
+
+            <li><a href="#" class="active">HOME</a></li>
+
+            <li><a href="#">ABOUT</a></li>
+
+            <li><a href="#">SERVICES</a>
+                @* <span class="nav__icon">
+                    <i class='bx bx-down-arrow-circle'></i>
+                </span> *@
+@* 				<ul>
+					<li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+				</ul> *@
+			</li>
+
+            <li><a href="#">BLOG</a></li>
+
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+
+        @* <a href="#" class="user"><i class='bx bxs-user'></i>Sign In</a>
+        <a href="#">Register</a> *@
+        <button class="bx bx-menu" id="menu-icon" @onclick="MenuButton" aria-label="Mobile Navigation Button" style="border: none;background: none;"></button>
+	</header>
+
+    @* <header>
+        <div class="header2__top">
+            <div class="header2__main">
+                <div class="header2__row">
+                    <div class="header2__column header2__column--left">
+                        <a href="#" title="Home" class="logo">
+                            <img src="img/Placeholders/blank.png" alt="Monark Logo" height="16" width="16" />
+                        </a>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#">About us</a>
+                                </li>
+
+                                <li class="nav__item nav__item-has-child nav_order_1">
+                                    <a href="script.js">
+                                        Services
+                                            <span class="nav__icon">
+                                                <i class='bx bx-down-arrow-circle'></i>
+									        </span>
+									</a>
+                                    <div class="megamenu" data-index="6">
+                                        <div>
+                                            <div class="thumb">
+                                                <img src="img/Placeholders/blank.png" alt="Security service 1" height="16" width="16" />
+                                            </div>
+                                            <h3><a href="#">Security</a></h3>
+                                            <div class="nav-link">
+
+                                                    <ul role="menu">
+                                                        <li class="hs-menu-item hs-menu-depth-1" role="none">
+                                                            <a href="#" role="menuitem" target="_self">
+                                                                Foot Patrols & Mobile Officers
+                                                            </a>
+                                                        </li>
+                                                        <li class="hs-menu-item hs-menu-depth-1" role="none">
+                                                            <a href="#" role="menuitem" target="_self">
+                                                                Response & Key handling
+                                                            </a>
+                                                        </li>
+                                                        <li class="hs-menu-item hs-menu-depth-1" role="none">
+                                                            <a href="#" role="menuitem" target="_self">
+                                                                Waking watch/Fire wardens
+                                                            </a>
+                                                        </li>
+                                                        <li class="hs-menu-item hs-menu-depth-1" role="none">
+                                                            <a href="#" role="menuitem" target="_self">
+                                                                CCTV Operators
+                                                            </a>
+                                                        </li>
+                                                        <li class="hs-menu-item hs-menu-depth-1" role="none">
+                                                            <a href="#" role="menuitem" target="_self">
+                                                                Concierge/Front of House
+                                                            </a>
+                                                        </li>
+                                                        <li class="hs-menu-item hs-menu-depth-1" role="none">
+                                                            <a href="#" role="menuitem" target="_self">
+                                                                Events & Stewarding
+                                                            </a>
+                                                        </li>
+                                                        <li class="hs-menu-item hs-menu-depth-1" role="none">
+                                                            <a href="#" role="menuitem" target="_self">
+                                                                Retails & Shopping Centres
+                                                            </a>
+                                                        </li>
+                                                        <li class="hs-menu-item hs-menu-depth-1" role="none">
+                                                            <a href="#" role="menuitem" target="_self">
+                                                                Access Control Solutions
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> *@
+
+
+    <!--HEADER NAV END-->
+    <img class="section" src=img/Colour/BG_ISCOM_01.jpg>
+
+    <div style="height:30px;"></div> <!--DIVIDER 10px GAP-->
+
+    <section class="row">
+        <img src="img/Placeholders/BLANK.PNG" alt="blank" width="160" height="160" style="padding:40px;">
+        <div class="row_contents">
+            <p class="text-large">“True security lies in the prevention of threats, not just the response to them."</p>
+            <p>- CEO & Founder</p>
+        </div>
+    </section>
+
+    <div style="height:30px;"></div> <!--DIVIDER 10px GAP-->
+
+
+    <section style="height:100vh;">
+		<div class="section section_img2" data-bg-image="img/colour/sec_noncom_02.jpg"><div class="overlay"></div></div>
+        <div class="textbox reveal fade-right" style=" right: 0;">
+            <div style="display:flex;align-items:center;width: min-content;">
+                <h1 class="header_1">01</h1>
+                <h3>
+                    <bold style="padding-left: 30px;display: block;">
+                        Security Needs Covered
+                    </bold>
+                </h3>
+			</div>
+            <p>"Our focus is on practical, cost-effective solutions that adhere to the latest industry standards, delivering a comprehensive and reliable security plan aligned with your goals."</p>
+        </div>
+    </section>
+    <section style="height:100vh; flex-direction: row-reverse;">
+        <div class="section section_img2" data-bg-image="img/colour/sec_noncom_02.jpg"><div class="overlay"></div></div>
+        <div class="textbox reveal fade-left" style=" left: 0;">
+            <div style="display:flex;align-items:center;width: min-content;">
+                <h1 class="header_1">02</h1>
+                <h3>
+                    <bold style="padding-left: 30px;display: block;">
+                        Your Safety, Our Priority
+                    </bold>
+                </h3>
+            </div>
+            <p>"At the heart of everything we do is your safety. Our expert team delivers tailored security solutions designed to protect your people, assets, and property."</p>
+        </div>
+    </section>
+    <section style="height:100vh;">
+        <div class="section section_img2" data-bg-image="img/colour/sec_noncom_02.jpg"><div class="overlay"></div></div>
+        <div class="textbox reveal fade-right" style=" right: 0;">
+            <div style="display:flex;align-items:center;width: min-content;">
+                <h1 class="header_1">03</h1>
+                <h3>
+                    <bold style="padding-left: 30px;display: block;">
+                        Security Needs Covered
+                    </bold>
+                </h3>
+            </div>
+            <p>"Our focus is on practical, cost-effective solutions that adhere to the latest industry standards, delivering a comprehensive and reliable security plan aligned with your goals."</p>
+        </div>
+    </section>
+
+    <div>
+        <div class="container_02">
+            <h1 class="header_1">OUR SERVICES</h1>
+            <div class="card">
+                <img src="img/Colour/BG_ISCOM_07.jpg" alt="Close Protection" style="width:100%; border-radius: 5px 5px 0 0;">
+                <div class="container">
+                    <h1><bold>Close Protection</bold></h1> <!--CARD 01 ROW 1-->
+                    <br />
+                    <a class="button" href="#">DISCOVER</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Colour/BG_ISCOM_06.jpg" alt="Construction Security" style="width:100%; border-radius: 5px 5px 0 0;">
+                <div class="container">
+                    <h1><bold>Construction Security</bold></h1> <!--CARD 02 ROW 1-->
+                    <br />
+                    <a class="button" href="#">DISCOVER</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Colour/BG_ISCOM_05.jpg" alt="Event Security" style="width:100%; border-radius: 5px 5px 0 0;">
+                <div class="container">
+                    <h1><bold>Event Security</bold></h1> <!--CARD 03 ROW 2-->
+                    <br />
+                    <a class="button" href="#">DISCOVER</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Colour/BG_ISCOM_02.jpg" alt="Residential Security" style="width:100%; border-radius: 5px 5px 0 0;">
+                <div class="container">
+                    <h1><bold>Residential Security</bold></h1> <!--CARD 04 ROW 2-->
+                    <br />
+                    <a class="button" href="#">DISCOVER</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Colour/BG_ISCOM_03.jpg" alt="Chauffeur Services" style="width:100%; border-radius: 5px 5px 0 0;">
+                <div class="container">
+                    <h1><bold>Chauffeur Services</bold></h1> <!--CARD 04 ROW 2-->
+                    <br />
+                    <a class="button" href="#">DISCOVER</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Colour/BG_ISCOM_08.jpeg" alt="K9 Services" style="width:100%; border-radius: 5px 5px 0 0;">
+                <div class="container">
+                    <h1><bold>K9 Services</bold></h1> <!--CARD 04 ROW 2-->
+                    <br />
+                    <a class="button" href="#">DISCOVER</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="container_02">
+        <div class="card" style="display: flex;flex-direction: column;align-items: center;">
+                <img src="img/Colour/Sec_NONCOM_03.jpg" alt="Careers" style="width:100%; border-radius: 5px 5px 0 0;">
+                <div class="container">
+                    <h1><bold>Careers</bold></h1> <!--CARD 04 ROW 2-->
+                    <br />
+                    <a class="button" href="#">JOIN TODAY</a>
+                </div>
+            </div>
+        </div>
+
+<footer>
+    <div class="footer_main">
+            <p>Copyright &copy; EE Projects Plus</p>
+            <p>This is a demo website, non of the images have been licenced for commercial uses</p>
+    </div>
+</footer>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        toggleMenu(); // Executes the Javascript as the page loads, otherwise the script won't run
+    });
+</script>
+
+
+@code {
+    private async Task MenuButton()
+    {
+        Console.WriteLine("ToggleMenu called");
+        await JSRuntime.InvokeVoidAsync("toggleMenu");
+    }
+}
+
+

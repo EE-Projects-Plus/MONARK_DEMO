@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WepApp2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WepApp2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\Navbar.css",
+      "PackagePath": "staticwebassets\\Navbar.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Colour\\BG_ISCOM_01.jpg",
+      "PackagePath": "staticwebassets\\img\\Colour\\BG_ISCOM_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Colour\\BG_ISCOM_02.jpg",
+      "PackagePath": "staticwebassets\\img\\Colour\\BG_ISCOM_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Colour\\BG_ISCOM_03.jpg",
+      "PackagePath": "staticwebassets\\img\\Colour\\BG_ISCOM_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Colour\\BG_ISCOM_04.jpg",
+      "PackagePath": "staticwebassets\\img\\Colour\\BG_ISCOM_04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Colour\\BG_ISCOM_05.jpg",
+      "PackagePath": "staticwebassets\\img\\Colour\\BG_ISCOM_05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Colour\\BG_ISCOM_06.jpg",
+      "PackagePath": "staticwebassets\\img\\Colour\\BG_ISCOM_06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Colour\\BG_ISCOM_07.jpg",
+      "PackagePath": "staticwebassets\\img\\Colour\\BG_ISCOM_07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Colour\\BG_ISCOM_08.jpeg",
+      "PackagePath": "staticwebassets\\img\\Colour\\BG_ISCOM_08.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Colour\\Sec_NONCOM_01.jpg",
+      "PackagePath": "staticwebassets\\img\\Colour\\Sec_NONCOM_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Colour\\Sec_NONCOM_02.jpg",
+      "PackagePath": "staticwebassets\\img\\Colour\\Sec_NONCOM_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Colour\\Sec_NONCOM_03.jpg",
+      "PackagePath": "staticwebassets\\img\\Colour\\Sec_NONCOM_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\LOGO.png",
+      "PackagePath": "staticwebassets\\img\\LOGO.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Placeholders\\BLANK.PNG",
+      "PackagePath": "staticwebassets\\img\\Placeholders\\BLANK.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Placeholders\\NOLINK.PNG",
+      "PackagePath": "staticwebassets\\img\\Placeholders\\NOLINK.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Placeholders\\PHOTO.PNG",
+      "PackagePath": "staticwebassets\\img\\Placeholders\\PHOTO.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Placeholders\\Slide6.PNG",
+      "PackagePath": "staticwebassets\\img\\Placeholders\\Slide6.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Placeholders\\TEXT.PNG",
+      "PackagePath": "staticwebassets\\img\\Placeholders\\TEXT.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\Placeholders\\WITHLINK.PNG",
+      "PackagePath": "staticwebassets\\img\\Placeholders\\WITHLINK.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\img\\_LOGO.png",
+      "PackagePath": "staticwebassets\\img\\_LOGO.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WepApp2\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WepApp2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WepApp2.props",
+      "PackagePath": "build\\WepApp2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WepApp2.props",
+      "PackagePath": "buildMultiTargeting\\WepApp2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WepApp2.props",
+      "PackagePath": "buildTransitive\\WepApp2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
